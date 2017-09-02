@@ -25,3 +25,7 @@ include $(LOCAL_PATH)/product/*.mk
 
 # Call the proprietary setup
 $(call inherit-product, vendor/yu/lettuce/lettuce-vendor.mk)
+
+PRODUCT_PACKAGES += \
+   hwcomposer.msm8916 \
+   android.hardware.graphics.composer@2.1-impl \
